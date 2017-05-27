@@ -1,0 +1,611 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 96%;
+    margin: auto;
+}
+
+.container2 {
+    margin: auto;
+    width: 91%;
+    overflow: hidden;
+}
+
+header {
+    padding-top: 15px;
+    min-height: 600px;
+    min-width: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.svg);
+    max-height: 650px;
+    background-size: cover;
+    height: 65vh;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.header-ul {
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.header-ul li {
+    float: left;
+    display: inline;
+    list-style: none;
+    letter-spacing: 1px;
+    padding: 0 10px 0 10px;
+}
+
+.header-nav {
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.header-nav button {
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 90px;
+    position: relative;
+    margin: -20px 0;
+    border: none;
+    font-weight: 500;
+    font-family: "Lato";
+    padding: 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.button-a {
+    color: black;
+}
+
+header .navlogo {
+    float: left;
+    padding-top: 7px;
+    padding-left: 10px;
+} 
+
+.header-ul a:hover {
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+main {
+    min-height: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 0px;
+}
+
+main h1 {
+    color: white;
+    width: 45%;
+    font-size: 250%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 95px;
+    max-width: 550px;
+    min-width: 550px;
+}
+
+.search-container {
+    height: auto;
+    margin: auto;
+    width: 100%;
+    max-width: 550px;
+    min-width: 550px;
+}
+
+.search input{
+    margin-bottom: 3px;
+    width: 97%;
+    padding-left: 14px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.search input::placeholder {
+    color: #8e8e8e;
+    
+}
+
+.location-select {
+    width: 32%;
+    height: 42px;
+    margin-top: 7px;
+    float: left;
+    margin-right: 1.2%;
+    border-radius: 3px;
+    border: none;
+    padding-left: 12px;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.location-select option {
+    color: black;
+}
+
+.budget-select {
+    width: 32.5%;
+    height: 42px;
+    margin-top: 7px;
+    float: left;
+    margin-right: 1%;
+    border-radius: 3px;
+    border: none;
+    padding-left: 12px;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.budget-select option {
+    color: black;
+}
+
+.find-events {
+    width: 33%;
+    height: 42px;
+    margin-top: 7px;
+    float: right;
+    border-radius: 4px;
+    border: none;
+    margin-right: 0;
+    background-color: #ff3434;
+}
+.find-events a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.bottom-nav-ul {
+    margin-top: 60px;
+    min-width: 250px;
+    width: 91%;
+    height: auto;
+    margin-bottom: 30px;
+    
+}
+
+.bottom-nav-ul li {
+    
+    text-decoration: none;
+    display: inline;
+    padding-right: 12px;
+}
+
+.bottom-nav-ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.bottom-nav-ul a:hover {
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+.image-blocks {
+    margin: auto;
+    padding-left: 10px;
+    width: 91%;
+}
+
+.image-blocks p {
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 12.2px;
+    
+}
+
+.tablet-image {
+    display: none;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    min-width: 250px;
+}
+
+.genre-nash {
+    border-bottom: 1px solid #d6d6d6;
+    width: 100%;
+    min-width: 250px;
+    line-height: .3;
+    overflow: auto;
+}
+
+.location-nash {
+    float: left;
+    padding-top: 5px;
+    line-height: .1;
+    min-width: 110px;
+    width: 50%;
+    margin-right: 0;
+    border-right: 1px solid #d6d6d6;
+}
+
+.price-nash {
+    float: right;
+    width: 45%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 0;
+    line-height: .1;
+    min-width: 100px;
+}
+
+.price-nash-1 {
+    float: right;
+    width: 45%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 0;
+    line-height: .1;
+    min-width: 100px;
+}
+
+.current a {
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+}
+
+section {
+    max-width: 1280px;
+    margin: auto;
+}
+
+>clearix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.discover {
+    max-width: 160px;
+    width: 20%;
+    min-width: 150px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.discover button {
+    margin-top: 60px;
+    border-radius: 3px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: #ff3434;
+    width: 100%;
+    height: 42px;
+}
+
+.discover a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    border-top: 1px solid #d8d8d8;
+}
+
+.copy {
+    font-size: 12px;
+    color: #7c7c7c;
+    margin-left: 8px;
+}
+
+.terms {
+    margin-top: 25px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    width: 40%;
+    float: left;
+    min-width: 300px;
+}
+
+.social {
+    width: 30%;
+    float: right;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-right: 20px;
+    min-width: 150px;
+    padding-bottom: 0;
+}
+
+.social-ul {
+    float: right;
+}
+
+.social-ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+
+.social li img {
+    width: 22%;
+}
+
+/* Smartphones */
+@media only screen and (max-width: 480px) {
+    
+    header {
+        min-width: 280px;
+        max-width: 480px;
+    }
+    
+    main {
+        min-width: 280px;
+    }
+    
+    main h1 {
+        min-width: 280px;
+    }
+    
+    .social {
+        margin: auto;
+        padding: 0;
+        float: none;
+        min-width: 350px;
+    }
+    
+    .social img {
+        margin: auto;
+    }
+    
+    .social-ul {
+        margin: auto;
+        float: none;
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+    
+    .terms {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-nav {
+        margin-right: -40px;
+    }
+    
+    .header-nav button {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    
+    .search-container {
+        min-width: 280px;
+    }
+    
+    .location-select {
+        width: 49%;
+        min-width: 50px;
+        margin-right: 0;
+    }
+    
+    .browse {
+        display: none;
+    }
+    
+    .discover-header {
+        display: none;
+    }
+    
+    .budget-select {
+        width: 50%;
+        min-width: 50px;
+        float: right;
+        margin-left:;
+        margin-right: 0;
+    }
+    
+    .find-events {
+        display: block;
+        width: 100%;
+        min-width: 150px;
+    }
+    
+    .span-1-of-3 {
+        float: none;
+        margin: auto;
+        font-size: 15px;
+    }
+    
+    .image-blocks {
+        margin: auto;
+    }
+    
+    .image-blocks img {
+        margin-top: 30px;
+    }
+    
+    .price-nash {
+        float: right;
+    }
+    
+    .location-nash {
+        float: left;
+    }
+}
+
+/* Tablets Landscape */
+@media only screen and (min-width: 526px) and (max-width: 1200px) {
+    
+    .navlogo img {
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    
+    #kenny {
+        float: none;
+        width: 100%;
+    }
+    
+    .country-image {
+        display: none;
+    }
+    
+    .tablet-image {
+        display: block;
+    }
+    
+    #jazz-tab {
+        float: left;
+        width: 48%;
+        margin-left: 0;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    
+    
+    
+    .location-nash {
+        float: left;
+    }
+    
+    #rock-tab {
+        float: right;
+        width: 48%;
+        margin-left: 0;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 525px) {
+    
+    .price-nash-1 {
+        min-width: 50px;
+        width: 10%;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+    
+    .navlogo img {
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    
+    #kenny {
+        float: none;
+        width: 100%;
+    }
+    
+    .country-image {
+        display: none;
+    }
+    
+    .tablet-image {
+        display: block;
+    }
+    
+    #jazz-tab {
+        float: left;
+        width: 48%;
+        margin-left: 0;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    
+    
+    
+    .location-nash {
+        float: left;
+    }
+    
+    #rock-tab {
+        float: right;
+        width: 48%;
+        margin-left: 0;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
